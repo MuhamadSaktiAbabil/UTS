@@ -44,13 +44,13 @@
 								<label for="jk" class="col-sm-2 col-form-label">Jenis Kelamin </label>
 								<div class="col-sm-10">
 									<div class="form-check">
-										<input class="form-check-input" type="radio" name="jenis_kelamin" value="Laki-Laki" <?php echo $jenis_kelamin; ?> checked>
+										<input class="form-check-input" type="radio" name="jenis_kelamin" value="L" <?php echo $jenis_kelamin == 'L' ?'checked' :''?>>
 										<label class="form-check-label" for="l">
 											Laki -Laki
 										</label>
 									</div>
 									<div class="form-check">
-										<input class="form-check-input" type="radio" name="jenis_kelamin" value="Perempuan" <?php echo $jenis_kelamin; ?>checked>
+										<input class="form-check-input" type="radio" name="jenis_kelamin" value="P" <?php echo $jenis_kelamin == 'P' ?'checked' :'' ?>>
 										<label class="form-check-label" for="p">
 											Perempuan
 										</label>
