@@ -12,9 +12,9 @@
     
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">DATA MAHASISWA</li>
-        <li class="active"><a href="crud/tampil"><i class="fa fa-link"></i>Dashboard</a></li>
+        <li class="active"><a href="crud/tampil"><i class="fa fa-dashboard"></i>Dashboard</a></li>
         <!-- <li class="active"><a href="crud/tambah"><i class="fa fa-link"></i>Tambah Data</a></li> -->
-        <li class="active"><a href="crud/tampil2"><i class="fa fa-link"></i>Riwayat Log</a></li>
+        <li class="active"><a href="crud/tampil2"><i class="fa fa-circle-o"></i>Riwayat Log</a></li>
        
       </ul>
       <!-- /.sidebar-menu -->
