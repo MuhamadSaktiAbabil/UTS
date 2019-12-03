@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 06, 2019 at 05:07 AM
+-- Generation Time: Dec 03, 2019 at 06:37 AM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 5.6.40
 
@@ -47,7 +47,13 @@ INSERT INTO `log` (`id`, `nim`, `no_hp_lama`, `no_hp_baru`, `tgl_diubah`) VALUES
 (10, '161240000579', '08975758587', '082334794796', '2019-11-04 09:47:52'),
 (11, '161240000595', '082334794796', '082334794796', '2019-11-04 12:28:25'),
 (12, '161240000595', '082334794796', '082334794796', '2019-11-04 12:35:23'),
-(13, '123', '082334794796', '082334794796', '2019-11-05 20:56:14');
+(13, '123', '082334794796', '082334794796', '2019-11-05 20:56:14'),
+(14, '161240000595', '082334794796', '082334794796', '2019-11-06 19:03:14'),
+(15, '161240000595', '082334794796', '082334794796', '2019-11-06 23:00:47'),
+(16, '161240000595', '082334794796', '082334794796', '2019-11-06 23:00:54'),
+(17, 'ddd', 'dd', 'dd', '2019-12-03 12:36:33'),
+(18, 'dshd', 'dyd', 'dyd', '2019-12-03 12:36:43'),
+(19, 'yyyyyyy', 'yyyyyyyyy', 'yyyyyyyyy', '2019-12-03 12:36:55');
 
 -- --------------------------------------------------------
 
@@ -70,7 +76,20 @@ CREATE TABLE `mhs` (
 
 INSERT INTO `mhs` (`id`, `nim`, `nama_mhs`, `jenis_kelamin`, `alamat`, `no_hp`) VALUES
 (18, '161240000595', 'Sakti', 'L', 'Mlonggo', '082334794796'),
-(19, '123', 'Devi Nurlita Andriyani', 'P', 'Mlonggo', '08975758587');
+(19, '123', 'Devi Nurlita Andriyani', 'P', 'Mlonggo', '08975758587'),
+(20, '161240000533', 'Bodong', 'L', 'Kauman', '0822222222222'),
+(21, '123', 'sak', 'L', 'Mlonggo', '082334794796'),
+(22, '161240000595', 'Devi Nurlita Andriyani', 'L', 'Mlonggo', '082334794796'),
+(23, '161240000597', 'oooooooo', 'L', 'Mlonggo', '082334794796'),
+(24, '112', 'djdj', 'P', 'dhdh', '000099'),
+(25, '161240000557', 'dhdhd', 'P', 'eyeye', '98888'),
+(27, '161240000557', 'Sakti', 'P', 'edhdeyd', '7777'),
+(28, '161240000557', 'edee', 'P', 'dehhd', '098222'),
+(29, '161240000597', 'dhjdjd', 'L', 'dhyd', '888888'),
+(30, '333333333333', 'Devi Nurlita Andriyani', 'P', 'Mlonggo', 'dd'),
+(31, '11111111111111', 'dhdhd', 'L', 'dhdh', 'dyd'),
+(32, '11111111111', 'shgdhd', 'P', 'dhdhd', 'dgdjdd'),
+(33, '444444444444444', 'yyyyyyyyy', 'P', 'yyyyyyyyyy', 'yyyyyyyyy');
 
 --
 -- Triggers `mhs`
@@ -134,13 +153,13 @@ ALTER TABLE `mhs`
 -- AUTO_INCREMENT for table `log`
 --
 ALTER TABLE `log`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT for table `mhs`
 --
 ALTER TABLE `mhs`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

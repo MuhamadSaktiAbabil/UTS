@@ -40,11 +40,11 @@
 										<th>Hapus</th>
 									</tr>
 								</thead>
-								<?php
+								<?php $id=1;
 								foreach ($isi as $k0 => $v0) {
 									?>
 									<tr>
-										<td><?php echo $v0['id'] ?></td>
+										<td><?php echo $id++;?></td>
 										<td><?php echo $v0['nim'] ?></td>
 										<td><?php echo $v0['nama_mhs'] ?></td>
 										<td><?php echo $v0['jenis_kelamin'] ?></td>

@@ -49,13 +49,11 @@ class Crud extends CI_Controller
 
 	public function simpan()
 	{
-		$this->load->library('form_validation');
-		$this->form_validation->set_rules('nama_mhs', 'required|alpha');
-		$this->form_validation->set_rules('no_hp', 'nomer', 'required|numeric');
-		if ($this->form_validation->run() == false) {
+		
 			$data = array('judul' => 'Tambah Data');
 			$this->load->view('tambah_data', $data);
-		} else {
+ 
+			{
 			echo "hal tersimpan";
 
 			$data = array(
